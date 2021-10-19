@@ -1,5 +1,5 @@
 def  mayor(a,b):
-    a =12
+    a =13
     b = 6
 
     if (a > b): 
@@ -8,6 +8,6 @@ def  mayor(a,b):
     elif (b<a):
       print(b)
 
-print(mayor(12,6))
+print(mayor(13,6))
 
 
