@@ -1,12 +1,12 @@
 verificar = True
 
 while verificar == True:
-    n = int(input('ingrese un numero entero positivo:'))
+    x= int(input('ingrese un numero entero positivo:'))
 
-    if n > 0 :
+    if x > 0 :
 
         for i in range(1,11):
-             print(n,"por", i, "es igual a:" , n*i)
+             print(x,"por", i, "es igual a:" , x*i)
 
         verificar - False
     else:
